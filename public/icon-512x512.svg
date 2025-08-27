@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="64" fill="#D4AF37"/>
+  <g transform="translate(96, 96)">
+    <!-- Scales of Justice Icon -->
+    <path d="M160 40C160 17.909 177.909 0 200 0s40 17.909 40 40v20h40c11.046 0 20 8.954 20 20s-8.954 20-20 20h-40v200c0 11.046-8.954 20-20 20s-20-8.954-20-20V100h-40c-11.046 0-20-8.954-20-20s8.954-20 20-20h40V40z" fill="#1a1a1a"/>
+    
+    <!-- Left Scale -->
+    <circle cx="120" cy="240" r="60" fill="none" stroke="#1a1a1a" stroke-width="8"/>
+    <path d="M60 240h120M90 270l60-60M150 270l-60-60" stroke="#1a1a1a" stroke-width="5" stroke-linecap="round"/>
+    
+    <!-- Right Scale -->
+    <circle cx="280" cy="240" r="60" fill="none" stroke="#1a1a1a" stroke-width="8"/>
+    <path d="M220 240h120M250 270l60-60M310 270l-60-60" stroke="#1a1a1a" stroke-width="5" stroke-linecap="round"/>
+    
+    <!-- Balance Beam -->
+    <path d="M120 240L200 180L280 240" stroke="#1a1a1a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Company Initial -->
+  <text x="256" y="380" font-family="serif" font-size="120" font-weight="bold" text-anchor="middle" fill="#1a1a1a">L</text>
+</svg>

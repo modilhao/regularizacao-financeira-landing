@@ -1,0 +1,49 @@
+{
+  "name": "Lima Advogados - Regularização Financeira Empresarial",
+  "short_name": "Lima Advogados",
+  "description": "Especialistas em recuperação judicial e regularização financeira empresarial. Mais de 20 anos de experiência ajudando empresas a superar crises financeiras.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#D4AF37",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["business", "finance", "legal"],
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Diagnóstico Gratuito",
+      "short_name": "Diagnóstico",
+      "description": "Faça um diagnóstico gratuito da situação financeira da sua empresa",
+      "url": "/#diagnostico",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "eBook Gratuito",
+      "short_name": "eBook",
+      "description": "Baixe nosso eBook sobre os 5 erros fatais na recuperação empresarial",
+      "url": "/#ebook",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+# Robots.txt para Lima Advogados - Regularização Financeira
+# https://regularizacaofinanceira.com.br/robots.txt
+
+User-agent: *
+Allow: /
+
+# Otimizações para Google Ads e SEO
+Allow: /api/
+Allow: /_next/static/
+Allow: /manifest.json
+Allow: /sitemap.xml
+Allow: /sitemap-*.xml
+
+# Bloquear arquivos desnecessários
+Disallow: /_next/
+Disallow: /api/internal/
+Disallow: /.well-known/
+Disallow: /admin/
+Disallow: /dashboard/
+
+# Permitir bots importantes
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Sitemap
+Sitemap: https://regularizacaofinanceira.com.br/sitemap.xml
+Sitemap: https://regularizacaofinanceira.com.br/sitemap-pages.xml
+
+# Crawl delay para outros bots
+User-agent: *
+Crawl-delay: 2
+
+# Bloquear bots maliciosos conhecidos
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
